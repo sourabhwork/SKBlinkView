@@ -1,0 +1,16 @@
+PODS:
+  - SKBlinkView (0.1.0)
+
+DEPENDENCIES:
+  - SKBlinkView (from `../`)
+
+EXTERNAL SOURCES:
+  SKBlinkView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SKBlinkView: dd7656a3e6d273da27c9e5420a8c1629ccef0e7b
+
+PODFILE CHECKSUM: a4d7b1ccde6733f3de1bbfcbe9eac23e97a3b401
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,6 @@
+framework module SKBlinkView {
+  umbrella header "SKBlinkView-umbrella.h"
+
+  export *
+  module * { export * }
+}

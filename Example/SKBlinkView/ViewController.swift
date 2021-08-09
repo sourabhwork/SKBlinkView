@@ -7,18 +7,31 @@
 //
 
 import UIKit
+import SKBlinkView
 
 class ViewController: UIViewController {
 
+    var blinkView = BlinkView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        //setupBlinkView()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+//    func setupBlinkView() {
+//        self.view.addSubview(blinkView)
+//        blinkView.translatesAutoresizingMaskIntoConstraints = false
+//        NSLayoutConstraint.activate([
+//            blinkView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+//            blinkView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+//            blinkView.heightAnchor.constraint(equalToConstant: 200),
+//            blinkView.widthAnchor.constraint(equalToConstant: 400)
+//        ])
+//    }
 }
 
