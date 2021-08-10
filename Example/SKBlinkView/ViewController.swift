@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //setupBlinkView()
+        setupBlinkView()
         print("View Did Load")
     }
 
@@ -24,15 +24,15 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-//    func setupBlinkView() {
-//        self.view.addSubview(blinkView)
-//        blinkView.translatesAutoresizingMaskIntoConstraints = false
-//        NSLayoutConstraint.activate([
-//            blinkView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-//            blinkView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
-//            blinkView.heightAnchor.constraint(equalToConstant: 200),
-//            blinkView.widthAnchor.constraint(equalToConstant: 400)
-//        ])
-//    }
+    func setupBlinkView() {
+        self.view.addSubview(blinkView)
+        blinkView.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            blinkView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            blinkView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+            blinkView.heightAnchor.constraint(equalToConstant: 200),
+            blinkView.widthAnchor.constraint(equalToConstant: 400)
+        ])
+    }
 }
 
